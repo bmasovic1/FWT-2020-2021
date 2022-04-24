@@ -1,0 +1,65 @@
+.container {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 400px;
+    grid-template-areas: 
+    "meni meni meni meni"
+    "obavijest obavijest obavijest obavijest";
+}
+.container > div:nth-child(odd) {
+    background-color: rgba(29, 133, 194, 0.849);
+}        
+.container > div{
+    background-color: rgba(13, 58, 110, 0.8);
+    border: 1px solid black;
+}        
+.item1{
+    grid-area: meni;
+}
+.item2{
+    grid-area: obavijest;
+}
+
+label{
+    
+    display: table-cell;
+    
+}
+input{
+
+    width: 150px;
+    display: table-cell;
+
+}
+select{
+
+    width: 155px;
+
+}
+form{
+
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+}
+#glavni{
+
+    display: block;
+    text-align: center;
+}
+div{
+
+    display: table-row;
+
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 2px;
+    font-size: large;
+    color:  white;
+    font-size: x-large;
+}

@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="raspored.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container" >
+
+    <div class="item1" id="id1">
+            
+        <nav align="center" style="padding-top: 40px;" style="padding-bottom: 50px;">
+            <ul id="ul1">
+                <li id="li1"><a id="a1" href="planiranjeNastavnik.html">planiranjeNastavnik</a></li>
+                
+                <li id="li1"><a id="a1" href="podaciStudent.html">podaciStudent</a></li>
+
+                <li id="li1"><a id="a1" href="posjecenost.html">posjecenost</a></li>
+                
+                <li id="li1"><a id="a1" href="obavijesti.html">obavijest</a></li>
+            </ul>
+        </nav>
+
+
+    </div>
+
+    <div class="item2" id="id2">
+        <br>
+        <div class="container" style="padding-left: 550px; width: 2000px;">
+            <div class="row" style="height: 220px;">
+                <div class="col" >
+                
+                    <div align="center"  >
+                        <label>Predmet:</label>
+                        <br>
+                        <input type="text" name="Predmet" id="Predmet">
+                    </div>
+                    <div align="center"  >
+                        <label>Tip aktivnosti:</label>
+                        <br>
+                        <input type="text" name="Tip"  id="Tip">
+                    </div>
+                    <div align="center"  >
+                        <label>Vrijeme trajanja:</label>
+                        <br>
+                        <input type="text" name="Vrijeme" id="Vrijeme">
+                    </div>
+                    <div align="center"  >
+                        <label>Dan:</label>
+                        <br>
+                        <input type="text" name="Dan"  id="Dan">
+                    </div>
+                    <br>
+                    <div align="center"  >
+                        <button id="Filtriraj">FILTRIRAJ</button>
+                    </div>
+                
+                </div>
+
+            </div>
+         </div>
+         <br><br><br><br><br><br>
+
+    <table align="center" id="tabela">
+
+        <tr>
+            <td id="vrijeme" colspan="4">08:00</td>
+            <td id="vrijeme" colspan="2">10:00</td>
+            <td id="vrijeme"></td>
+            <td id="vrijeme" colspan="4">12:00</td>
+            <td id="vrijeme"></td>
+            <td id="vrijeme" colspan="4">15:00</td>
+            <td id="vrijeme"></td>
+            <td id="vrijeme" colspan="4">17:00</td>
+            <td id="vrijeme" colspan="4">19:00</td>
+        </tr>
+
+        <tr id="red1">
+            <td id="dani" style="background-color: rgb(83, 122, 207);">Ponedeljak</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td style="background-color: rgb(193, 185, 240);" colspan="6" >WT <br> predavanje</td>
+            <td style="background-color: rgb(193, 185, 240);" id="isprekidana" colspan="3">WT <br> vježbe</td>
+            <td></td>
+            <td style="background-color: rgb(193, 185, 240);" colspan="6">RMA <br> predavanje</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+        </tr>
+
+        <tr id="red2">
+            <td id="dani" style="background-color:  rgb(83, 122, 207);;">Utorak</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td style="background-color: rgb(193, 185, 240);" colspan="3">RMA <br> vježbe</td>
+            <td style="background-color: rgb(193, 185, 240);" colspan="4">DM <br> tutorijal</td>
+            <td style="background-color: rgb(193, 185, 240);" id="isprekidana" colspan="6">DM <br> predavanje</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+        </tr>
+        
+        <tr id="red3">
+            <td id="dani" style="background-color:  rgb(83, 122, 207);;">Srijeda</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td style="background-color: rgb(193, 185, 240);" colspan="6">OI <br> predavanje</td>
+            <td colspan="6"></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+        </tr>
+
+        <tr id="boja">
+            <td id="dani" style="background-color:  rgb(83, 122, 207);;">Četvrtak</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+        </tr>
+
+        <tr id="boja">
+            <td id="dani" style="background-color: rgb(83, 122, 207);;">Petak</td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td id="isprekidana"></td>
+            <td></td>
+            <td id="isprekidana"></td>
+            <td></td>
+        </tr>
+    </table>
+    </div>
+</div>
+<script src="trenutno.js"></script>
+<script src="raspored.js"></script>
+<script src="filtriraj.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

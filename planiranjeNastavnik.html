@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="planiranjeNastavnik.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+</head>
+<body>
+<div class="container" >
+
+    <div class="item1" id="id1">
+        <nav align="center" style="padding-top: 40px;" style="padding-bottom: 50px;">
+            <ul id="ul1">
+                <li id="li1"><a id="a1" href="raspored.html">raspored</a></li>
+                    
+                <li id="li1"><a id="a1" href="podaciStudent.html">podaciStudent</a></li>
+    
+                <li id="li1"><a id="a1" href="posjecenost.html">posjecenost</a></li>
+                    
+                <li id="li1"><a id="a1" href="obavijesti.html">obavijest</a></li>
+            </ul>
+        </nav>
+    </div>
+        
+    <div class="item2" id="id2">
+        <br><br><br><br>
+    <div id="glavni">
+    <form>
+        <div>
+        <label id="naziv">Naziv predmeta: </label>
+        <input type="text"  id="Naziv" name="Naziv predmeta">
+        <br><br>
+        </div>
+        
+
+        <div>
+        <label id="naziv">Predavanje/vježbe: </label>
+        <select id="Tip">
+        <option>predavanje</option>
+        <option>vježbe</option>
+        </select>
+        <br><br>
+        </div>
+
+        <div>
+        <label id="naziv">Vrijeme početka: </label>
+        <input type="time" id="Pocetak" name="Vrijeme pocetka">
+        <br><br>
+        </div>
+
+        <div>
+        <label id="naziv">Vrijeme kraja: </label>
+        <input type="time" id="Kraj" name="Vrijeme kraja">
+        <br><br>
+        </div>
+
+        <div>
+        <label id="naziv">Dan u sedmici: </label>
+        <select>
+        <option>Ponedeljak</option>
+        <option>Utorak</option>
+        <option>Srijeda</option>
+        <option>Četvrtak</option>
+        <option>Petak</option>
+        </select>
+        </div>
+
+        
+
+    </form>
+    </div>
+    </div>
+</div>
+<script src="validacija.js"></script>
+<script src="planiranjeNastavnik.js"></script>
+</body>
+</html>

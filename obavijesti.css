@@ -1,0 +1,87 @@
+.container {
+display: grid;
+grid-template-columns:  1fr 1fr 1fr 1fr;
+grid-auto-rows: minmax(100px, auto);
+grid-template-areas: 
+"meni meni meni meni"
+"obavijest obavijest obavijest obavijest";
+}
+.container > div:nth-child(odd) {
+    background-color: rgba(29, 133, 194, 0.849);
+}
+    
+.container > div{
+    background-color: rgba(13, 58, 110, 0.8);
+    border: 1px solid black;
+}
+    
+.item1{
+    grid-area: meni;
+}
+.item2{
+    grid-area: obavijest;
+}
+
+#vrijeme{
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+#ul1, #li1, #a1{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    margin: 2px;
+    font-size: large;
+    color:  white;
+}
+.glavni{
+    width: 80%;
+    margin: auto;
+}
+.glava{
+    font-size: 20px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(144, 212, 224);
+    color: rgb(2, 2, 180);
+    border-radius: 15px;
+    width: 100%;
+}
+.glava .znak{
+    position: absolute;
+    top: -122px;
+    right: -15px;
+    padding: 5px 10px;
+    background-color: rgb(65, 104, 212);
+    color: rgb(14, 29, 70);
+    border-radius: 30%;
+    font-weight: 900;
+}
+.znak{
+    border: 3px solid white;
+}
+.znak:hover{
+    background-color: rgb(0, 0, 126);
+    color: white;
+}
+
+#okvir:hover{
+    border: 3px solid black;
+}
+@media(max-width: 500px){
+.inbox{
+    color: brown;
+    width: 500px;
+}
+}
+
+
+
+
+
+
+
+
+
